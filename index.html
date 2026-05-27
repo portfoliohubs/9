@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- Primary SEO -->
+    <title>PortfolioHubs — Dental Portfolio & CV PDF Maker | Free</title>
+    <meta name="description" content="PortfolioHubs: Create your professional dental portfolio that appears on Google Search, or generate a stunning PDF CV — free and instant. Best dental CV maker & portfolio builder." />
+    <meta name="keywords" content="portfoliohubs, dental cv, cv maker, cv pdf maker, dental portfolio, dentist portfolio, dental cv maker, free cv maker, professional dental cv, dental portfolio builder, cv pdf dental, dentist cv maker" />
+    <meta name="author" content="PortfolioHubs" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://portfoliohubs.github.io/portfolio-data-collector/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PortfolioHubs — Dental Portfolio & CV PDF Maker" />
+    <meta property="og:description" content="Create your professional dental portfolio for Google Search, or download a free PDF CV instantly. PortfolioHubs — الاسنانجى لازم يتدلع" />
+    <meta property="og:url" content="https://portfoliohubs.github.io/portfolio-data-collector/" />
+    <meta property="og:site_name" content="PortfolioHubs" />
+    <meta property="og:image" content="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_EG" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PortfolioHubs — Dental CV & Portfolio Maker" />
+    <meta name="twitter:description" content="Free dental portfolio builder and CV PDF maker. Professional. Mobile friendly. Instant." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+    <meta name="twitter:site" content="@portfoliohubs" />
+
+    <!-- Structured Data (Schema.org) for GEO & SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "PortfolioHubs",
+      "alternateName": ["Dental CV Maker", "Dental Portfolio Builder", "CV PDF Maker"],
+      "url": "https://portfoliohubs.github.io/portfolio-data-collector/",
+      "description": "Create professional dental portfolios that appear on Google Search, or generate PDF CVs for free. The best dental CV maker and portfolio builder.",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Dental portfolio builder",
+        "CV PDF maker for dentists",
+        "Free dental CV generator",
+        "Google Search portfolio",
+        "Mobile friendly"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "name": "Dental professionals, dentists, dental students"
+      },
+      "inLanguage": ["en", "ar"],
+      "author": {
+        "@type": "Organization",
+        "name": "PortfolioHubs",
+        "url": "https://portfoliohubs.github.io/portfolio-data-collector/"
+      }
+    }
+    </script>
+
+    <!-- FAQ Schema for AI search tools -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is PortfolioHubs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PortfolioHubs is a free web app for dental professionals to create professional portfolios that appear on Google Search, and to generate PDF CVs instantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to make a dental CV PDF for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use PortfolioHubs CV PDF Maker — fill in your info, upload your photo and clinical cases, then click Download to get your professional dental CV as PDF for free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to create a dental portfolio for Google search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PortfolioHubs Portfolio Builder guides you through entering your data, then generates a TOML config file for your Google-indexed dental portfolio website."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- PWA -->
+    <link rel="manifest" href="/portfolio-data-collector/manifest.json" />
+    <link rel="apple-touch-icon" href="/portfolio-data-collector/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="PortfolioHubs" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://images.pexels.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Arabic/RTL support hint -->
+    <meta name="language" content="English, Arabic" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Register service worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/portfolio-data-collector/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
